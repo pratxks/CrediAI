@@ -1,6 +1,6 @@
 # 📊 AI-Powered Credit Scoring for Loan Approvals
 
----
+![Amexai UI Mocks](./amexai.png)
 
 ## 🎯 Project Overview
 Credit scoring is the backbone of modern lending. Traditional scoring models often fail to capture nuanced borrower behavior, leading to limited financial inclusion and higher default risks.  
@@ -12,7 +12,6 @@ This project presents an **AI-powered credit scoring system** that leverages **P
 
 **Goal:** Develop a scalable, data-driven loan approval engine deployable by banks, fintech startups, or micro-lending organizations.  
 
----
 
 ## 🏛️ Academic / Thesis Context
 This project is structured as a **thesis-style research study** under faculty guidance.  
@@ -29,8 +28,6 @@ This project is structured as a **thesis-style research study** under faculty gu
 
 Suitable for **capstone projects, dissertations, or academic publications**.  
 
----
-
 ## ⚙️ Tech Stack
 - **Programming:** Python 🐍  
 - **ML Libraries:** Scikit-Learn, XGBoost  
@@ -40,7 +37,6 @@ Suitable for **capstone projects, dissertations, or academic publications**.
 - **Explainability:** SHAP, LIME  
 - **Deployment Ready:** Flask / FastAPI  
 
----
 
 ## 🧩 System Workflow
 1. **Data Ingestion** → PostgreSQL stores borrower & transaction data  
@@ -50,7 +46,6 @@ Suitable for **capstone projects, dissertations, or academic publications**.
 5. **Interpretability Layer** → SHAP values explain approvals/denials  
 6. **API Integration (Optional)** → Real-time scoring for fintech dashboards  
 
----
 
 ## 📊 Visualizations
 During project execution, generate and showcase:  
@@ -59,15 +54,12 @@ During project execution, generate and showcase:
 - 🔥 **SHAP Summary Plots** (Explainability)  
 - 🔥 **Interactive Dashboards** (Plotly, Tableau, Power BI – optional)  
 
----
-
 ## 🔮 Results & Insights
 - **Baseline Models (Logistic Regression):** ROC-AUC ≈ *0.72*  
 - **Advanced Models (XGBoost):** ROC-AUC > *0.85*  
 - **Key Insight:** *Transaction history* + *debt-to-income ratio* outperform raw credit scores.  
 - **Business Impact:** *15–20% reduction in defaults* + expanded access for underbanked communities.  
 
----
 
 ## 📌 Future Work
 - Incorporate **Deep Learning** (TabNet, AutoEncoders)  
@@ -75,7 +67,6 @@ During project execution, generate and showcase:
 - Build **fairness-aware ML pipelines** (reduce bias)  
 - Deploy as a **production-ready API** for micro-lenders  
 
----
 
 ## 🌍 Why This Matters
 Financial inclusion is a global challenge. With **responsible AI credit scoring**, we can:  
@@ -83,7 +74,6 @@ Financial inclusion is a global challenge. With **responsible AI credit scoring*
 - Help banks reduce risk with accurate borrower profiling  
 - Contribute to the shift toward **AI-driven financial systems**  
 
----
 
 ## 👨‍🏫 Thesis / Professor Alignment
 This project is designed to balance **academic rigor** and **industry relevance**.  
@@ -93,7 +83,6 @@ Faculty provide:
 - ⚖️ Ethical AI oversight  
 - 📝 Mentorship toward **publication / conference submissions**  
 
----
 
 ## 🚀 How to Run Locally
 
@@ -113,3 +102,6 @@ python scripts/train.py
 
 # Evaluate
 python scripts/evaluate.py
+```
+
+
